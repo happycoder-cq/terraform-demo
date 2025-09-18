@@ -3,6 +3,10 @@ variable "domain" {
   default = "przechrzta.me"
 }
 
+variable "ami_id" {
+  default = "ami-0aa60d8c7f2d70f7a"
+}
+
 variable "instance_type" {
   type = string
   default = "t2.micro"
