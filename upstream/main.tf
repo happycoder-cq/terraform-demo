@@ -8,3 +8,7 @@ resource "null_resource" "test" {
 output "AMI_ID" {
   value = "ami-0c1c30571d2dae5c9"
 }
+
+output "Name" {
+  value = "upstreamer"
+}
